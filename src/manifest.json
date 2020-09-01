@@ -1,0 +1,35 @@
+{
+
+  "manifest_version": 2,
+  "name": "BitBucket Filter Projects",
+  "version": "1.0.0",
+
+  "description": "Filters Bitbucket Projects",
+  "homepage_url": "https://github.com/danielr1996/bitbucket-filter-projects",
+  "permissions": [
+    "activeTab","storage"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Filter Bitbucket Projects",
+    "default_popup": "filter.html"
+  },
+
+  "icons": {
+    "48": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["filter_content.js"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "danielrichter@posteo.de"
+    }
+  }
+
+}

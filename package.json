@@ -1,0 +1,22 @@
+{
+  "name": "bitbucket-filter-projects",
+  "version": "1.0.0",
+  "description": "Filter Bitbucket Projects",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielr1996/bitbucket-filter-projects.git"
+  },
+  "author": "Daniel Richter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielr1996/bitbucket-filter-projects/issues"
+  },
+  "homepage": "https://github.com/danielr1996/bitbucket-filter-projects#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.0.2",
+    "sign-addon": "^3.0.0"
+  }
+}
